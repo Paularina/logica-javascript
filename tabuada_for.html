@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tabuada com FOR</title>
+</head>
+<body>
+	<h1>Tabuada com FOR</h1>
+	<script>
+		function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+	}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+	}
+
+	var tabuada = parseInt(prompt("Escreva a tabuada que quer ver:"));
+	
+	for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+
+    mostra(tabuada * multiplicador);
+
+	}
+
+	mostra("FIM");
+
+
+	</script>
+</body>
+</html>

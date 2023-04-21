@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ano Copa</title>
+</head>
+<body>
+	<h1>Ano Copa</h1>
+
+	<script>
+
+    function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+	}
+	var limite = parseInt(prompt("Entre com a data limite"));
+	var anoCopa = 1930;
+
+	while(anoCopa <= limite) {
+
+    alert("Teve copa em " + anoCopa);
+    mostra("teve copa em " + anoCopa);
+	anoCopa = anoCopa + 4;
+    
+	}
+
+	alert("FIM");
+
+
+</script>
+</body>
+</html>

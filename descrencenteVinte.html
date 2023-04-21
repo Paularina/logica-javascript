@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Decrescente de 20 a zero</title>
+</head>
+<body>
+	<h1>Decrescente de 20 á zero</h1>
+	<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var contador = 100;
+
+    while( contador > 0) {
+
+      mostra(contador);
+      contador = contador - 2;
+    }
+
+    mostra("FIM");
+</script>
+</body>
+</html>
